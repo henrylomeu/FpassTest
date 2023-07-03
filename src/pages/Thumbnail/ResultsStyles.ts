@@ -7,6 +7,10 @@ export const Container = styled.div`
 export const Title = styled.h1`
   font-size: 24px;
   margin-bottom: 16px;
+  background-color: black;
+  width: 280px;
+  padding: 10px;
+  border-radius: 4px;
 `;
 
 export const CharacterContainer = styled.div`

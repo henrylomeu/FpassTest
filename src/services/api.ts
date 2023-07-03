@@ -21,7 +21,7 @@ export const api = async (searchTerm?: string) => {
   try {
     const response = await axios.get(
       `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${searchTerm}&ts=${time}&apikey=${publicKey}&hash=${hash}`
-    );
+    );    
     return response.data.data.results;
   } catch (err) {
     console.log(err);
